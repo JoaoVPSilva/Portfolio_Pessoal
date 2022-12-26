@@ -8,15 +8,17 @@ import { render } from 'react-dom';
 
 function Header(){    
     return(
-       <header class="sticky-top">
+       <header class="">
             <img src={logo_joao}/>
             <div className='menu_header'>
-                <Link to="/"> <strong>Home</strong></Link>
-                <Link to="/sobre"> <strong>Sobre</strong></Link>        
-                <Link to="/projeto"> <strong>Projetos</strong></Link>                    
-                <Link to="/contato"><strong>Contato</strong></Link>            
+                <Link to="/" class="btn_header">Home</Link>                
+                <Link to="/sobre" class="btn_header"> Sobre</Link>        
+                <Link to="/projeto" class="btn_header"> Projetos</Link>                    
+                <Link to="/contato" class="btn_header">Contato</Link>            
             </div>
        </header>
+   
+       
     )
 }
 

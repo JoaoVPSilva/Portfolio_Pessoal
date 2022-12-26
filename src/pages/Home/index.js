@@ -9,10 +9,21 @@ function Home(){
             <div class="row">
                 <div class="col-md-6 d-flex">
                     <div class="align-self-center" id="text_">
-                        <h1 class=""><strong>Olá,tudo bem?</strong></h1>                        
-                        <p class=""><strong>Me chamo João Vitor P. Silva, sou um Desenvolvedor e Editor. <br/> Se procura saber mais sobre meu trabalho, está no lugar certo!!!</strong></p>
+                        <h1 class="" id='text_home_1'>Olá, me chamo <strong>João Vitor.</strong></h1>                        
                         <br></br>
-                        <Link to="/sobre" class="" id="vamos_btn">Vamos lá?</Link>                        
+                        <p class="" id='text_home_2'>
+                            Desenvolvedor Web e Editor de vídeos.<br/>
+                            Tenho 19 anos, sou estudante de Ciências da Computação, e no tempo livre, editor de vídeos.<br/>
+                            Quer conhecer mais do meu trabalho?
+                        </p>
+                        
+                        <Link to="/sobre" class="" id="vamos_btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <strong>Vamos lá?</strong>
+                        </Link>                        
                     </div>                       
                 </div>
                 <div class="col-md-6 d-md-block">
