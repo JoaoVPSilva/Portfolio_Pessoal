@@ -2,9 +2,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
-import Header from './components/Header';
+import Header from './components/Header/header';
 import Contato from './pages/Contato';
-import Projetos from './pages/Projetos';
 
 function RoutesApp(){
 
@@ -14,8 +13,7 @@ function RoutesApp(){
             <Routes>
                 <Route path="/" element={ <Home/> } />
                 <Route path="/sobre" element={ <Sobre/> } />
-                <Route path="/contato" element={ <Contato/> } />
-                <Route path="/projeto" element={ <Projetos/> } />
+                <Route path="/contato" element={ <Contato/> } />                
             </Routes>
         </BrowserRouter>
     )

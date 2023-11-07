@@ -1,5 +1,5 @@
 .container{
-    margin-top: -20px;
+    margin-top: 150px;
 }
 
 #text_{
@@ -13,6 +13,9 @@
  #text_home_1{
     color: #ffffff;
  }
+ #text_strong{
+    color: #ecc16c;
+ }
  #text_home_2{
     color: #ffffff;
  }
@@ -23,8 +26,9 @@
     padding: 10px 30px;
     text-decoration: none;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
-    background: #262c37;
+    color:#ffffff;    
+    background-color: #000053;
+    
     letter-spacing: 2px;
     font-size: 16px;
     transition: 0.5s;
@@ -37,7 +41,7 @@
 #vamos_btn span{
     display: block;
     position: absolute;
-    background: #7206e6;
+    background: #f8b328;
 }
 
 #vamos_btn span:nth-child(1){

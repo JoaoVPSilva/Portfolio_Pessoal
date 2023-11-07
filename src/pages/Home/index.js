@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import foto_jv from './img/Foto_portfolio.png'
+import foto_jv from './img/home_portfolio.png'
 import './style.css';
 
 function Home(){
@@ -9,20 +9,19 @@ function Home(){
             <div class="row">
                 <div class="col-md-6 d-flex">
                     <div class="align-self-center" id="text_">
-                        <h1 class="" id='text_home_1'>Olá, me chamo <strong>João Vitor.</strong></h1>                        
+                        <h1 class="" id='text_home_1'>Olá, me chamo <strong id='text_strong'>João Vitor.</strong></h1>                        
                         <br></br>
-                        <p class="" id='text_home_2'>
-                            Desenvolvedor Web e Editor de vídeos.<br/>
-                            Tenho 19 anos, sou estudante de Ciências da Computação, e no tempo livre, editor de vídeos.<br/>
-                            Quer conhecer mais do meu trabalho?
+                        <p class="" id='text_home_2'>                            
+                            Trabalho como desenvolvedor e sou estudante de Ciências da Computação, e nos tempos livres que tenho, faço freelance.<br/>
+                            Ficou interessado? <strong id='text_strong'>Clique abaixo</strong> e descubra mais sobre!
                         </p>
-                        
+                        <br></br>
                         <Link to="/sobre" class="" id="vamos_btn">
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span>
-                            <strong>Vamos lá?</strong>
+                            <strong>Vamos lá</strong>
                         </Link>                        
                     </div>                       
                 </div>

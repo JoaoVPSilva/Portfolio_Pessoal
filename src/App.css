@@ -8,23 +8,11 @@
     
 }   
 
-body{
-  
+ body{
+    background-color: #0c034b;
 }
 
-.bg{
-    /* background-image: url("./img/cool-background\ \(3\).png");
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
-
-    /* #0f041c;
-       #f3eef7; */
-    /* background-color: #0a0a0a; */
-    background-color: #15191f;
-
+p{
+    color:white;
 }
+
