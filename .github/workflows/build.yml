@@ -7,18 +7,42 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: '14.x'
       - name: Build web-app
-        run: 
-          npm ci          
+        run: |
+          npm ci
+          npm run build
+        name: deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - name: Build web-app
+        run: |
+          npm ci
           npm run build
         env:
           CI: false 
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
