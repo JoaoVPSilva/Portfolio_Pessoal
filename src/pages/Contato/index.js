@@ -28,17 +28,17 @@ function Contato(){
                             <div>
                                 <FaLinkedin style={{color: "#ecc16c",width:"30px", height: "30px"}}/>
                                 &nbsp;&nbsp;&nbsp;
-                                <a target="_blank" href="https://www.linkedin.com/in/jo%C3%A3o-vitor-pereira-da-silva-84946920a/"class="text-light" style={{textDecoration: 'none'}}>Linkedin</a>                            
+                                <a rel='noreferrer' href="https://www.linkedin.com/in/jo%C3%A3o-vitor-pereira-da-silva-84946920a/"class="text-light" style={{textDecoration: 'none'}}>Linkedin</a>                            
                             </div>                           
                             <div>
                                 <FaSquareWhatsapp style={{color: "#ecc16c",width:"30px", height: "30px"}}/>
                                 &nbsp;&nbsp;&nbsp;
-                                <a href=""class="text-light" style={{textDecoration: 'none'}}>(35) 9 9934-3134</a>                            
+                                <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-pereira-da-silva-84946920a/"class="text-light" style={{textDecoration: 'none'}}>(35) 9 9934-3134</a>                            
                             </div>  
                             <div>
                                 <TbSquareLetterW style={{color: "#ecc16c",width:"30px", height: "30px"}}/>
                                 &nbsp;&nbsp;&nbsp;
-                                <a target="_blank" href="https://www.workana.com/freelancer/de73429727e80ee17817178876a1b0ee"class="text-light" style={{textDecoration: 'none'}}>Workana</a>                            
+                                <a rel='noreferrer' href="https://www.workana.com/freelancer/de73429727e80ee17817178876a1b0ee"class="text-light" style={{textDecoration: 'none'}}>Workana</a>                            
                             </div>  
                         </div>
                     </div>

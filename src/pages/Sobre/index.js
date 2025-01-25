@@ -1,5 +1,4 @@
 import './style.css';
-import { Link } from 'react-router-dom' ;
 import foto_chair from './img/chair_guy.png';
 import foto_lot from './img/lot_things.png';
 import foto_zebra from './img/zebra.png';

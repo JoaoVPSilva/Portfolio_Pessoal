@@ -7,7 +7,7 @@ import logo_joao from './img/logo3_new.png';
 function Header(){        
     return(
        <header class="">
-            <img src={logo_joao}/> 
+            <img src={logo_joao} alt='no logo'/> 
             <div className='menu_header'>
                 <Link to="Portfolio_Pessoal/" class="btn_header">Home</Link>                                
                 <Link to="/sobre" class="btn_header"> Sobre</Link>                        
