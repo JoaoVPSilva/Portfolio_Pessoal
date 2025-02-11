@@ -3,8 +3,8 @@ import './style.css';
 import { GrMail } from 'react-icons/gr';
 import { FaLinkedin } from 'react-icons/fa6';
 import { FaSquareWhatsapp } from 'react-icons/fa6';
-import { TbSquareLetterW } from 'react-icons/tb';
-import img from './img/img2.png';
+import { FaGithub } from "react-icons/fa";
+import img from './img/foto_jsilva.png';
 
 function Contato(){
     return (
@@ -20,26 +20,22 @@ function Contato(){
                         <br/><br/>                    
                         <h2 class="text-light"><strong>Contatos</strong><hr/></h2>     
                             <br/>                                                   
-                            <div>
-                                <GrMail style={{color: "#ecc16c",width:"30px", height: "30px"}}/>
-                                &nbsp;&nbsp;&nbsp;
-                                <a href="mailto:joaovitorps1005@gmail.com"class="text-light" style={{textDecoration: 'none'}}>joaovitorps1005@gmail.com</a>                            
-                            </div>    
-                            <div>
-                                <FaLinkedin style={{color: "#ecc16c",width:"30px", height: "30px"}}/>
-                                &nbsp;&nbsp;&nbsp;
-                                <a rel='noreferrer' href="https://www.linkedin.com/in/jo%C3%A3o-vitor-pereira-da-silva-84946920a/"class="text-light" style={{textDecoration: 'none'}}>Linkedin</a>                            
-                            </div>                           
-                            <div>
-                                <FaSquareWhatsapp style={{color: "#ecc16c",width:"30px", height: "30px"}}/>
-                                &nbsp;&nbsp;&nbsp;
-                                <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-pereira-da-silva-84946920a/"class="text-light" style={{textDecoration: 'none'}}>(35) 9 9934-3134</a>                            
-                            </div>  
-                            <div>
-                                <TbSquareLetterW style={{color: "#ecc16c",width:"30px", height: "30px"}}/>
-                                &nbsp;&nbsp;&nbsp;
-                                <a rel='noreferrer' href="https://www.workana.com/freelancer/de73429727e80ee17817178876a1b0ee"class="text-light" style={{textDecoration: 'none'}}>Workana</a>                            
-                            </div>  
+                            <a class="text-light btnsContato"  href="mailto:joaovps.contato@gmail.com">
+                                <GrMail style={{color: "#ecc16c",width:"30px", height: "30px",  marginRight: '10px'}}/>
+                                <p style={{textDecoration: 'none'}}>joaovps.contato@gmail.com</p>
+                            </a>    
+                            <a class="text-light btnsContato" rel='noreferrer' href="https://www.linkedin.com/in/jsilvadev/">
+                                <FaLinkedin target='_blank' style={{color: "#ecc16c",width:"30px", height: "30px", marginRight: '10px'}}/>                                
+                                <p style={{textDecoration: 'none'}}>Linkedin</p>                            
+                            </a>                           
+                            <div class="text-light btnsContato">
+                                <FaSquareWhatsapp style={{color: "#ecc16c",width:"30px", height: "30px", marginRight: '10px'}}/>                                
+                                <p style={{textDecoration: 'none'}}>(35) 9 9934-3134</p>                            
+                            </div>                             
+                            <a rel='noreferrer' href="https://github.com/JoaoVPSilva" class="text-light btnsContato" style={{textDecoration: 'none'}}>
+                                <FaGithub style={{color: "#ecc16c", width: "30px", height: "30px", marginRight: '10px'}} />
+                                <p style={{textDecoration: 'none', marginBottom: '0'}}>GitHub</p>                             
+                            </a>                             
                         </div>
                     </div>
                 </div>
