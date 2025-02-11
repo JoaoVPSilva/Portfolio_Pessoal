@@ -16,7 +16,7 @@ function Sobre(){
                                 <p class="p_componente">
                                 Olá, Meu nome é <strong id='text_strong'>João Vitor</strong>, sou um <strong id='text_strong'>Desenvolvedor</strong>.
                                 Comecei meus estudos em 2020, na faculdade de Ciências da Computação, e desde então já trabalhei como estagiário em Análise de Sistemas/Requisitos,
-                                e atualmente trabalho a mais de 1 ano como Desenvolvedor fullstack para uma multinacional na área de ferrovias.   
+                                e atualmente trabalho a ma#13131Fis de 1 ano como Desenvolvedor fullstack para uma multinacional na área de ferrovias.   
                                 Sou um apaixado pela tecnologia, que no tempo livre faz uns freelances para complementar os conhecimentos e a renda.                              
                                 </p>
                                 {/* <a href="" class="btn btn-primary">Meus Projetos</a> */}
